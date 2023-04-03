@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="style_lemon.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+         <title>Final Project</title>
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+         <script src="./menu.js" async></script>
+
+    </head>
+    <body>
+
+    <header> 
+        <div class="container">
+            <div class="row">
+            <div class="col-md-2"><img id="logo1" src="lemoni.png" alt="Lemon" ></div>
+            <div class="col-md-10"><p>L&nbsp;I&nbsp;T&nbsp;T&nbsp;L&nbsp;E &nbsp;&nbsp;L&nbsp;E&nbsp;M&nbsp;O&nbsp;N</p> </div>
+        </div>
+
+
+    </header>
+        <div class="menu">
+        <ul>
+        <li> <a href="index.html"> Home </a></li>
+        <li> <a href="menu.html">Menu </a></li>
+        <li > <a href="#"> Book </a></li>
+        <li> <a href="#"> About </a></li>
+     </ul> 
+     </div>
+    
+  <main>
+    <div class="basket">
+      <div class="basket-module">
+        <!--<label for="promo-code">Enter a promotional code</label>-->
+        <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field" placeholder="Enter a promotional code (e.g. Abir)">
+        <button class="promo-code-cta">Apply</button>
+      </div>
+      <div class="basket-labels">
+        <ul>
+          <li class="item item-heading">Item</li>
+          <li class="price">Price</li>
+          <li class="quantity">Quantity</li>
+          <li class="subtotal">Subtotal</li>
+        </ul>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="lemonmagic.jpg" alt="Placholder Image 2" class="product-frame" width="120" height="160">
+          </div>
+          <div class="product-details">
+            <h3><strong><span class="item-quantity">4</span> x Lemon Magic Cake</strong></h3><h4>Delicious Lemon cake</h4>
+            <p>Product Code - 012</p>
+          </div>
+        </div>
+        <div class="price">30.00</div>
+        <div class="quantity">
+          <input type="number" value="4" min="1" class="quantity-field">
+        </div>
+        <div class="subtotal">104.00</div>
+        <div class="remove">
+          <button>Remove</button>
+        </div>
+
+        
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="lemonpie-removebg-preview.png" alt="Placholder Image 2" class="product-frame" width="120" height="160">
+          </div>
+          <div class="product-details">
+            <h3><strong><span class="item-quantity">1</span> x Lemon Pie</strong></h3><h4>Fresh lemon pie</h4>
+            <p>Product Code - 002</p>
+          </div>
+        </div>
+        <div class="price">35.00</div>
+        <div class="quantity">
+          <input type="number" value="1" min="1" class="quantity-field">
+        </div>
+        <div class="subtotal">45.00</div>
+        <div class="remove">
+          <button>Remove</button>
+        </div>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="Pistachiolemon.jpg" alt="Placholder Image 2" class="product-frame" width="120" height="160">
+          </div>
+          <div class="product-details">
+            <h3><strong><span class="item-quantity">1</span> x Pistachio</strong></h3><h4>Lemon Danish Pastry</h4>
+            <p>Product Code - 007</p>
+          </div>
+        </div>
+        <div class="price">35.00</div>
+        <div class="quantity">
+          <input type="number" value="1" min="1" class="quantity-field">
+        </div>
+        <div class="subtotal">35.00</div>
+        <div class="remove">
+          <button>Remove</button>
+        </div>
+      </div>
+      <div class="basket-product">
+        <div class="item">
+          <div class="product-image">
+            <img src="Ginger_Lemonade-removebg-preview.png" alt="Placholder Image 2" class="product-frame" width="120" height="160">
+          </div>
+          <div class="product-details">
+            <h3><strong><span class="item-quantity">1</span> x Lemonade</strong></h3><h4>Special Lemonade</h4>
+            <p>Product Code - 014</p>
+          </div>
+        </div>
+        <div class="price">45.00</div>
+        <div class="quantity">
+          <input type="number" value="1" min="1" class="quantity-field">
+        </div>
+        <div class="subtotal">45.00</div>
+        <div class="remove">
+          <button>Remove</button>
+        </div>
+      </div>
+    </div>
+    <aside>
+      <div class="summary">
+        <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
+        <div class="summary-subtotal">
+          <div class="subtotal-title">Subtotal</div>
+          <div class="subtotal-value final-value" id="basket-subtotal">130.00</div>
+          <div class="summary-promo hide">
+            <div class="promo-title">Promotion</div>
+            <div class="promo-value final-value" id="basket-promo"></div>
+          </div>
+        </div>
+        <div class="summary-delivery">
+          <select name="delivery-collection" class="summary-delivery-selection">
+              <option value="0" selected="selected">Payment Mode</option>
+              <option value="collection">Payment</option>
+             <option value="first-class">VISA/Mastercard</option>
+             <option value="second-class">CMI</option>
+             <option value="signed-for">On Delivery</option>
+          </select>
+        </div>
+        <div class="summary-total">
+          <div class="total-title">Total</div>
+          <div class="total-value final-value" id="basket-total">130.00</div>
+        </div>
+        <div class="summary-checkout">
+          <button class="checkout-cta">Go to Secure Checkout</button>
+        </div>
+      </div>
+    </aside>
+  </main>
+</body>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6"><img src="limone.png" alt="Lemon" ></div>
+            <div class="col-md-6">Copyright © Little Lemon - 2023</div>
+        </div>
+    </div>
+    </footer>
+</html>
